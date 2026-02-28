@@ -1,34 +1,39 @@
 # Indian University & Course Data Scraping Project
 
-## 📌 Project Overview
-This project performs automated web scraping to collect university and course information from official Indian university websites.
+## 📌 Internship Project
 
-The extracted data is structured and exported into an Excel file with relational integrity between universities and courses.
+This project was completed as part of the **AI/ML & Web Scraping Data Entry Intern** assignment at **HelpStudyAbroad**.
 
----
-
-## 🎯 Objective
-- Scrape 8 Indian universities
-- Extract minimum 8 courses per university
-- Maintain clean structured dataset
-- Ensure proper relational linking using unique IDs
-- Export final data into Excel with two sheets
+The objective was to scrape university and course data from official websites and structure it professionally in an Excel file with proper relational integrity.
 
 ---
 
-## 🛠 Tools & Technologies Used
-- Python
-- Requests
-- BeautifulSoup
-- Pandas
-- OpenPyXL
+## 🎯 Project Objective
+
+- Select 8 universities
+- Scrape minimum 8 courses per university
+- Structure data into clean datasets
+- Maintain relational integrity using unique IDs
+- Export final output into Excel with two sheets
+- Ensure automated scraping (no manual copy-paste)
+
+---
+
+## 🛠 Technologies Used
+
+- Python  
+- Requests  
+- BeautifulSoup  
+- Pandas  
+- OpenPyXL  
 - UUID (for unique ID generation)
 
 ---
 
-## 📂 Project Structure
+## 📂 Dataset Structure
 
 ### Sheet 1: Universities
+
 Contains:
 - university_id (Unique)
 - university_name
@@ -37,6 +42,7 @@ Contains:
 - website
 
 ### Sheet 2: Courses
+
 Contains:
 - course_id (Unique)
 - university_id (Linked to Universities sheet)
@@ -50,46 +56,53 @@ Contains:
 ---
 
 ## 🔗 Relational Integrity
-Each course is linked to its respective university using `university_id`.  
-This ensures proper database-style structure between both sheets.
+
+Each course record is linked to its respective university using `university_id`.  
+This ensures proper structured data similar to database design principles.
 
 ---
 
 ## ⚙️ Key Features
-- Fully automated scraping (no manual copy-paste)
+
+- Fully automated web scraping
 - Unique ID generation
 - Duplicate removal
 - Clean structured dataset
-- Ethical scraping practices (headers + request delay)
-- Organized Excel output
+- Ethical scraping practices (request headers and delay)
+- Organized Excel export with multiple sheets
 
 ---
 
-## 📊 Output
-Final output file:
+## 📊 Final Output
 
-University_Course_Data.xlsx
+The final output file:
 
-Contains:
-- 8 Universities
-- Minimum 8 Courses per university
-- Structured and clean dataset
+**University_Course_Data.xlsx**
+
+Includes:
+- 8 Indian Universities
+- Minimum 8 courses per university
+- Structured and clean data
+- Proper linking between both sheets
 
 ---
 
-## 🚀 How to Run
+## 🚀 How to Run the Project
 
 1. Open Google Colab
 2. Install required libraries
-3. Run all cells
+3. Run all notebook cells
 4. Download the generated Excel file
 
 ---
 
-## 📌 Note
-All data is collected from official university websites for educational and evaluation purposes only.
+## 📌 Disclaimer
+
+Data was collected from official university websites strictly for academic and internship evaluation purposes.
 
 ---
 
 ## 👩‍💻 Author
-Varshitha
+
+Varshitha  
+AI/ML Enthusiast  
